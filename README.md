@@ -26,7 +26,7 @@ Through this project we will analyze sales data from various aspects. The main o
 
 ## SECTION 1
 
-### Requirement gathering /Data Collection
+### Requirement gathering /Data Collection - (Project step 1 & 2)
 
 #### STEP 1 : 
 
@@ -64,7 +64,7 @@ In the data we have 5 dimension tables and 1 facts table.
      
 ## SECTION 2
 
-###  Data transformation / Data Computations
+###  Data transformation / Data Computations - (Project steps 3 & 4)
 
 #### STEP 1 :
 
@@ -73,3 +73,36 @@ Go through all the tables and understand the data.
 #### STEP 2 :
 
 Create relationship using modelling but before that we need to do some transformations and cleaning.
+
+After doing some transformationsand data cleaning we will build relationships between the table 
+
+![image](https://user-images.githubusercontent.com/105121789/214298002-482f6a29-873e-47c0-81e0-1dd2a637170b.png)
+
+We have also created a datemaster table because it is very helpful when we are working with time intelligence function.
+
+![image](https://user-images.githubusercontent.com/105121789/214298698-3ec44565-4bdf-41e8-97d8-fcc180907d8e.png)
+
+
+DAX Calculatons
+
+We used DAX functions and calculated the following measures 
+
+Total revenue:
+
+![image](https://user-images.githubusercontent.com/105121789/214304162-e962d6f5-04bb-452a-a10f-2a1015b4bec8.png)
+
+Total Cost:
+
+![image](https://user-images.githubusercontent.com/105121789/214304485-2605791b-2374-44b7-b49f-24f5c6ef16df.png)
+
+
+Gross profit :
+
+![image](https://user-images.githubusercontent.com/105121789/214304555-feb37512-98fb-4c1c-ace3-dc6a0f85e5f0.png)
+
+
+## SECTION 3
+
+### Power BI Reports / UI 
+
+#### STEP 1 : 
