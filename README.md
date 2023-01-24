@@ -78,6 +78,11 @@ After doing some transformationsand data cleaning we will build relationships be
 
 ![image](https://user-images.githubusercontent.com/105121789/214298002-482f6a29-873e-47c0-81e0-1dd2a637170b.png)
 
+Below are the various cleaning processess done on different tables.
+
+![image](https://user-images.githubusercontent.com/105121789/214307675-215ec48d-8ffd-4088-9699-08e8f23fe15c.png)
+
+
 We have also created a datemaster table because it is very helpful when we are working with time intelligence function.
 
 ![image](https://user-images.githubusercontent.com/105121789/214298698-3ec44565-4bdf-41e8-97d8-fcc180907d8e.png)
