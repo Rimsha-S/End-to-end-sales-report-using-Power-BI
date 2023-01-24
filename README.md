@@ -180,4 +180,33 @@ There are four roles in Power BI workspace, Admin, Member, Contributor, and View
 
 Next step is to create a dashboard
 
+A Power BI dashboard is a single page, often called a canvas, that tells a story through visualizations. Because it's limited to one page, a well-designed dashboard contains only the highlights of that story. Readers can view related reports for the details.
+
 ![image](https://user-images.githubusercontent.com/105121789/214332174-1f89478c-7ef8-452b-9611-bd1a72e3d585.png)
+
+
+We will pin the required charts to the dashboard and arrange properly in the tile format.
+
+![image](https://user-images.githubusercontent.com/105121789/214337141-58d36a44-6e32-4c05-a932-2fc4e331d696.png)
+
+We can edit the theme of the dashboard add title and cuatom the look of the Dashboard.
+
+![image](https://user-images.githubusercontent.com/105121789/214341430-090a204e-0a5a-4329-bcd9-5c3c8314cead.png)
+
+
+In the next step we will create a gateway which will set up a connection between desktop and service by automating the refreshes.Inorder to create a gateway we have to first download the data gateway.
+
+![image](https://user-images.githubusercontent.com/105121789/214343027-a7b9796c-3625-45d3-a42d-630877836a8f.png)
+
+
+There re two types of gateways:
+
+* Standard Mode
+* Personal Mode
+
+The difference is the way that you want to use the gateway. The personal mode is mainly used for one-person use, not for the team. On-premises standard gateway, on the other hand, is a choice when you want to work in a collaborative environment.
+
+![image](https://user-images.githubusercontent.com/105121789/214344251-5f8a5874-68b3-4740-b40a-71afd8a1a2bf.png)
+
+
+
