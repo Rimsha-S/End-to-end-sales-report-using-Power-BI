@@ -208,5 +208,52 @@ The difference is the way that you want to use the gateway. The personal mode is
 
 ![image](https://user-images.githubusercontent.com/105121789/214344251-5f8a5874-68b3-4740-b40a-71afd8a1a2bf.png)
 
+We will configure the gateway
+
+![image](https://user-images.githubusercontent.com/105121789/214348839-c82fe365-2862-4701-917e-164f85fb8e59.png)
+
+After configuring the gateway we can set up a refresh time and day.
+
+As a final step we can create an app 
+
+
+![image](https://user-images.githubusercontent.com/105121789/214354208-40c5e24a-fe77-4f45-8068-039029632245.png)
+
+
+
+On the Content tab, you add the content from the workspace to the app.
+
+* Select Add content on the Content tab.
+* Select the contents that you want to add from the current workspace.
+* Create and manage audiences
+On the Audience tab, you create and manage audience groups within the app.
+
+To create an audience, select New Audience.
+
+Double-click the default audience label to change the audience name.
+
+Select the hide/show icon next to each item in the workspace to determine the content that this app audience can see.
+
+In the Manage audience access pane, specify groups or users to add to the current audience group.
+
+For each audience group, grant access to either all people in your organization or specific users or groups. You can also expand the Advanced option to configure the following settings per audience group:
+
+Allow users to share the datasets in this app: This option gives app consumers permission to share the app and underlying datasets of the app audience.
+
+Allow users to build content with the datasets in this app: This option lets your app consumers create their own reports and dashboards based on the app audience datasets.
+
+![image](https://user-images.githubusercontent.com/105121789/214354625-b3e69aa7-a823-4e53-a82e-ac19d7d77bc1.png)
+
+Save a copy of a report
+You can allow app users who have build permissions to save copies of reports to their workspace. Once they save the reports, the app users can customize the reports copies to meet their needs.
+
+To enable your app users to save a copy, select the Allow users to make a copy of the reports in the app checkbox on the Setup tab.
+
+Screenshot of save a copy checkbox in Setup tab.
+
+Publish the app
+Now that you've decided on the audiences and the content for each audience, it's time to publish your app. You can install the app automatically for the recipients, if your Power BI admin has enabled this setting for you in the Power BI Admin Portal. 
+
+
 
 
