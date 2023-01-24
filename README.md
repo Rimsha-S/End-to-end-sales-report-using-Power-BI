@@ -152,4 +152,32 @@ We will also create a new measure and calculate the Month on Month growth
 
 ![image](https://user-images.githubusercontent.com/105121789/214320383-bd20d069-ff72-4e9d-9288-87a6e995da3e.png)
 
+We will now implement RLS 
 
+Row-level security (RLS) with Power BI can be used to restrict data access for given users. Filters restrict data access at the row level, and you can define filters within roles. In the Power BI service, members of a workspace have access to datasets in the workspace. RLS doesn't restrict this data access.
+Two main types of RLS can be implemented into your Power BI report: Status RLS and Dynamic RLS.
+
+When choosing between Static RLS and Dynamic RLS, here is a good rule of thumb: Use Static RLS if: You need to restrict data visibility for a specific group of users that require the same level of information (e.g., regional sales team to view data for their specific region).
+
+Using dynamic role-level security, you can restrict users' access to reports and dashboards based on their login credentials. This is one of Power BI's more advanced features that is covered in our Power BI classes.
+
+RLS has to be implemented in Power BI desktop then only it can be pushed to Power BI service 
+
+Go to manage roles and create roles using DAX expression
+
+![image](https://user-images.githubusercontent.com/105121789/214328373-64a35c86-12ed-400b-b85d-1feda8629869.png)
+
+We will create a workspace in Power BI service
+
+![image](https://user-images.githubusercontent.com/105121789/214329577-de2bcc6d-7730-46db-8425-c5521895fc3a.png)
+
+
+Next step we will publish the report to workspace
+
+![image](https://user-images.githubusercontent.com/105121789/214330444-4eb5463f-9a0c-4014-a38e-2621535d7489.png)
+
+There are four roles in Power BI workspace, Admin, Member, Contributor, and Viewer.Now we can give access to as many people as we need by selecting the different roles.
+
+Next step is to create a dashboard
+
+![image](https://user-images.githubusercontent.com/105121789/214332174-1f89478c-7ef8-452b-9611-bd1a72e3d585.png)
