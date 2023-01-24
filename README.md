@@ -88,20 +88,24 @@ We have also created a datemaster table because it is very helpful when we are w
 ![image](https://user-images.githubusercontent.com/105121789/214298698-3ec44565-4bdf-41e8-97d8-fcc180907d8e.png)
 
 
-DAX Calculatons
+#### DAX Calculatons
 
 We used DAX functions and calculated the following measures 
 
-Total revenue:
+
+##### Total revenue:
 
 ![image](https://user-images.githubusercontent.com/105121789/214304162-e962d6f5-04bb-452a-a10f-2a1015b4bec8.png)
 
-Total Cost:
+
+
+##### Total Cost:
 
 ![image](https://user-images.githubusercontent.com/105121789/214304485-2605791b-2374-44b7-b49f-24f5c6ef16df.png)
 
 
-Gross profit :
+
+##### Gross profit :
 
 ![image](https://user-images.githubusercontent.com/105121789/214304555-feb37512-98fb-4c1c-ace3-dc6a0f85e5f0.png)
 
@@ -111,3 +115,33 @@ Gross profit :
 ### Power BI Reports / UI 
 
 #### STEP 1 : 
+
+We will create slicers for country,years and months
+
+![image](https://user-images.githubusercontent.com/105121789/214312190-5c3c38e9-8c3b-4b8b-bb84-281d0ea46e79.png)
+
+We will use cards to display sum of total revenue ,sum of gross profit and sum of units
+
+![image](https://user-images.githubusercontent.com/105121789/214313280-302338ca-ec3b-45fc-8091-ccdeface69e9.png)
+
+Using multicard top 5 salespersons can be represented
+
+![image](https://user-images.githubusercontent.com/105121789/214313583-06407b80-8f33-4959-aa2c-ea2999056c3b.png)
+
+Sum of Total revenue by year and Product Name
+
+![image](https://user-images.githubusercontent.com/105121789/214314702-c3cef9d5-6b92-4716-8baf-4646a6749933.png)
+
+
+Sum of Total revenue by Product Name and Sub category name
+
+![image](https://user-images.githubusercontent.com/105121789/214315029-d74597b9-cc2a-41da-b7a6-44b62b880936.png)
+
+We will create a new measure and calculate the quater on quater growth and plotted a graph by sum of total revenure and QOQ growth
+
+![image](https://user-images.githubusercontent.com/105121789/214316272-56a3f15f-eb43-42dc-8788-88cc7eda01c7.png)
+
+We will also create a new measure and calculate the Month on Month growth
+
+![image](https://user-images.githubusercontent.com/105121789/214317489-4e495b89-d4f3-483a-a074-de764cb704fd.png)
+
