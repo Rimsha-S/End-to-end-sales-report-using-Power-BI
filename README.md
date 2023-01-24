@@ -66,3 +66,10 @@ In the data we have 5 dimension tables and 1 facts table.
 
 ###  Data transformation / Data Computations
 
+#### STEP 1 :
+
+Go through all the tables and understand the data.
+
+#### STEP 2 :
+
+Create relationship using modelling but before that we need to do some transformations and cleaning.
