@@ -152,7 +152,7 @@ We will also create a new measure and calculate the Month on Month growth
 
 ![image](https://user-images.githubusercontent.com/105121789/214320383-bd20d069-ff72-4e9d-9288-87a6e995da3e.png)
 
-We will now implement RLS 
+#### We will now implement RLS 
 
 Row-level security (RLS) with Power BI can be used to restrict data access for given users. Filters restrict data access at the row level, and you can define filters within roles. In the Power BI service, members of a workspace have access to datasets in the workspace. RLS doesn't restrict this data access.
 Two main types of RLS can be implemented into your Power BI report: Status RLS and Dynamic RLS.
@@ -172,13 +172,13 @@ We will create a workspace in Power BI service
 ![image](https://user-images.githubusercontent.com/105121789/214329577-de2bcc6d-7730-46db-8425-c5521895fc3a.png)
 
 
-Next step we will publish the report to workspace
+#### Next step we will publish the report to workspace
 
 ![image](https://user-images.githubusercontent.com/105121789/214330444-4eb5463f-9a0c-4014-a38e-2621535d7489.png)
 
 There are four roles in Power BI workspace, Admin, Member, Contributor, and Viewer.Now we can give access to as many people as we need by selecting the different roles.
 
-Next step is to create a dashboard
+#### Next step is to create a dashboard
 
 A Power BI dashboard is a single page, often called a canvas, that tells a story through visualizations. Because it's limited to one page, a well-designed dashboard contains only the highlights of that story. Readers can view related reports for the details.
 
@@ -214,19 +214,17 @@ We will configure the gateway
 
 After configuring the gateway we can set up a refresh time and day.
 
-As a final step we can create an app 
+### As a final step we can create an app 
 
 
 ![image](https://user-images.githubusercontent.com/105121789/214354208-40c5e24a-fe77-4f45-8068-039029632245.png)
-
-
 
 On the Content tab, you add the content from the workspace to the app.
 
 * Select Add content on the Content tab.
 * Select the contents that you want to add from the current workspace.
 * Create and manage audiences
-On the Audience tab, you create and manage audience groups within the app.
+* On the Audience tab, we can create and manage audience groups within the app.
 
 To create an audience, select New Audience.
 
@@ -245,13 +243,14 @@ Allow users to build content with the datasets in this app: This option lets you
 ![image](https://user-images.githubusercontent.com/105121789/214354625-b3e69aa7-a823-4e53-a82e-ac19d7d77bc1.png)
 
 Save a copy of a report
-You can allow app users who have build permissions to save copies of reports to their workspace. Once they save the reports, the app users can customize the reports copies to meet their needs.
+We can allow app users who have build permissions to save copies of reports to their workspace. Once they save the reports, the app users can customize the reports copies to meet their needs.
 
 To enable your app users to save a copy, select the Allow users to make a copy of the reports in the app checkbox on the Setup tab.
 
 Screenshot of save a copy checkbox in Setup tab.
 
-Publish the app
+### Publish the app
+
 Now that you've decided on the audiences and the content for each audience, it's time to publish your app. You can install the app automatically for the recipients, if your Power BI admin has enabled this setting for you in the Power BI Admin Portal. 
 
 
